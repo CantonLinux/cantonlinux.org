@@ -1,10 +1,63 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    {{ content }}
-  </body>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> 
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="robots" content="index,follow">
+  <meta name="twitter:image" property="og:image" content="{{ site.url }}/images/highres-penguin.png">
+  <script>
+        (function() {
+            document.documentElement.className = "js";
+        }());
+  </script>
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+</head>
+<body>
+<a class="skipnav" href="#main">skip to main content</a>
+<header role="banner" class="page-header">
+ <h1><a href="{{site.baseurl}}/index.html" title="index" class="siteTitle">{{site.title}}</a></h1>
+ <p>{{site.tagline}}</p>
+</header>
+<nav aria-label="main navigation">
+<button id="toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+<ul id="menu">
+  <li><a href="{{site.baseurl}}/index.html" title="articles" {% if page.current == 'blog' or layout.current == 'blog' %}aria-current="page"{% endif %}>Articles</a></li>
+  <li><a href="{{site.baseurl}}/about.html" title="about" {% if page.current == 'about' %}aria-current="page"{% endif %}>About</a></li>
+  <li><a href="{{site.baseurl}}/speakers.html" title="speakers" {% if page.current == 'speakers' %}aria-current="page"{% endif %}>Speakers</a></li>
+  <li><a href="{{site.baseurl}}/tags" title="archives" {% if page.current == 'archives' %}aria-current="page"{% endif %}>Archives</a></li>
+  </ul>
+</nav>
+	{{content}}
+    {% if page.id %}
+	  {% include footer-post.html %}
+    {% else %}
+      {% include footer.html %}
+    {% endif %}
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    //font loading
+  WebFont.load({
+    google: {
+      families: ['Lato:300,400,700', 'Noto+Serif:400,400i,700,700i']
+    }
+  });
+    //menu toggle for small screens
+    var toggle = document.querySelector('#toggle');
+    var menu = document.querySelector('#menu');
+
+    toggle.addEventListener('click', function(){
+      if (menu.classList.contains('is-active')) {
+        this.setAttribute('aria-expanded', 'false');
+        menu.classList.remove('is-active');
+      } else {
+        menu.classList.add('is-active'); 
+        this.setAttribute('aria-expanded', 'true');
+      }
+    });
+</script>
 </html>
