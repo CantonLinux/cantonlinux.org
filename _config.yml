@@ -22,10 +22,10 @@ title: Canton Linux
 orgname: Canton GNU/Linux Enthusiasts
 copyright: 2021
 email: ""
-description: "Canton GNU/Linux Enthusiasts is an informally-organized group of people who are active in the Free Software / Open Source software community located in or near Canton, Ohio, USA."
+description: "Canton GNU/Linux Enthusiasts is an informally-organized group. We are active in the Free Software / Open Source software community around Canton, Ohio, USA."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cantonlinux.org"
-tagline: "Enthusiastically learn and share"
+tagline: "Enthusiastically learning and sharing"
 githuburl: "https://github.com/cantonlinux"
 twitter_username: ""
 github_username:  ""
@@ -34,6 +34,14 @@ github_username:  ""
 # theme: minima
 plugins:
   - jekyll-feed
+gems: [jekyll-paginate]
+highlighter: rouge
+markdown: kramdown
+kramdown:
+   auto_ids: false
+paginate: 5
+paginate_path: '/article/page:num/'
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

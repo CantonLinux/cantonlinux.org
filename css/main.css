@@ -532,7 +532,7 @@ header p {
    top navigation styles
 -----------------------------------------------------*/
 nav {
-    background: url(../images/sp-logo-215.png) no-repeat top center;
+    background: url(../images/highres_penguin.png) no-repeat top center;
     padding-top: 250px;  
 }
 nav ul, nav li {
@@ -948,7 +948,6 @@ aside li {
 	background: url(../images/twitter-white.svg) no-repeat;
 }
 .footer-note p {
-   background: url(../images/lynda_50.png) no-repeat left center;
    padding-left: 100px;
 }
 .post-footer{
