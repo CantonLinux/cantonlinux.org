@@ -907,6 +907,9 @@ aside li {
 .twitter:hover,.twitter:focus {
 	background: url(../images/twitter-focus.svg) no-repeat;
 }
+.meetup {
+    background: url(../images/meetup.svg) no-repeat;
+}
 	
 /* -------------------------------------------------- 
    main footer styles

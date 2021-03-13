@@ -6,9 +6,7 @@ tags: [ansible, vagrant, WSL2, beaglebone, gohugo, gitlab]
 speaker: ""
 description: The Linux d-bus message bus
 ---
-Eclectic discussion by group.
-
-Topics:
+Eclectic discussion at the October '20 meetup. Topics included:
 
 * ansible molecule
 * [vagrant](https://www.vagantup.com)

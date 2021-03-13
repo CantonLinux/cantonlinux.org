@@ -5,7 +5,7 @@ title: About
 ---
 # About {{site.orgname}}
 
-This is an informally-organized group. We are active in the Free Software / Open Source software community around Canton, Ohio, USA.
+This is an informally-organized group. We are active in the Free Software / Open Source software community around Canton, Ohio, US, with members from around the world.
 
 If you work in a Windows only shop and are absolutely certain you
 will never use Linux, you need to join this group. Microsoft Windows has adopted

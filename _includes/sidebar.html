@@ -3,7 +3,7 @@
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign sortedTags = site_tags | split:',' | sort %}
 <aside>
-  <h3>Archives</h3>
+  <h3>Article Tags</h3>
   <ul class="archives">
     <li><a href="{{site.baseurl}}/tags/">All posts</a></li>
     {% for tag in sortedTags %}
@@ -15,5 +15,6 @@
   <h3>Connect</h3>
   <ul class="social">
     <li><a href="{{site.githuburl}}" title="Github" class="github">Github</a></li>
+    <li><a href="{{site.meetupurl}}" title="Meetup" class="meetup">Meetup</a></li>
   </ul>
 </aside>
