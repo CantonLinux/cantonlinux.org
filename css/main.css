@@ -20,7 +20,7 @@ body, html {
 /* HTML5 display definitions
    ========================================================================== */
 
-article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary {
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary,ystrip {
   display: block;
 }
 
@@ -1170,6 +1170,7 @@ nav li a[aria-current] {
 nav a:hover,nav a:focus {
 	color: #333;
 }
+
 /* -------------------------------------------------- 
    article styles
 -----------------------------------------------------*/
@@ -1180,6 +1181,14 @@ article p {
 a.more {
 	margin: 0.5em 0;
 }
+
+/* -------------------------------------------------- 
+   year strip
+-----------------------------------------------------*/
+ystrip {
+    text-align: center;
+}
+  
 /* -------------------------------------------------- 
    main footer styles
 -----------------------------------------------------*/
