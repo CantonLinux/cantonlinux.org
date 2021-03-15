@@ -4,7 +4,7 @@ title: Linux on Windows? Windows software on Linux? What is the world coming to?
 date: 2020-07-23
 tags: [windows, WSL2, powershell, ansible]
 fpage: b
-speaker: arnold
+peer: arno30
 description: Linux on Windows? Windows software on Linux? What is the world coming to?
 ---
 Derek Arnold explored the cross-pollination between Linux and Microsoft Windows.
