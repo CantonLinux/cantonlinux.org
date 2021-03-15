@@ -3,9 +3,11 @@ layout: post
 title: potpourri
 date: 2020-10-22
 tags: [ansible, vagrant, WSL2, beaglebone, gohugo, gitlab]
+fpage: a
 speaker: ""
 description: The Linux d-bus message bus
 ---
+# Various topics
 Eclectic discussion at the October '20 meetup. Topics included:
 
 * ansible molecule

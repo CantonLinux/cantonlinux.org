@@ -4,10 +4,12 @@ current: blog
 ---
 <main role="main" class="cf">
   <article class="posts">
+    <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
     {% for post in site.posts %}
     <p><a href="{{site.baseurl}}{{post.url}}">
-	{{post.date | date: "%Y-%m-%d"}}</a> - {{post.title}}
-      {% endfor %}
+	{{post.date | date: "%Y-%m-%d"}}</a> - {{post.title}}</p>
+    {% endfor %}
+    </article>
   </article>
   {% include sidebar.html %}
 </main>
