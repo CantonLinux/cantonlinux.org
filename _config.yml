@@ -35,14 +35,10 @@ meetupurl: "https://www.meetup.com/Canton-Linux-Enthusiasts/"
 # theme: minima
 plugins:
   - jekyll-feed
-gems: [jekyll-paginate]
 highlighter: rouge
 markdown: kramdown
 kramdown:
    auto_ids: false
-paginate: 5
-paginate_path: '/article/page:num/'
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

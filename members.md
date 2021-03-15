@@ -1,7 +1,7 @@
 ---
 layout: page
-current: speakers
-title: Speakers
+current: members
+title: Members
 ---
 
 List of speakers for {{site.orgname}} events.

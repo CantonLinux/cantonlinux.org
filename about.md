@@ -15,14 +15,14 @@ If you are interested in getting started with Linux, you need to join this group
 
 If you are massively proficient at Linux and understand it inside and out
 and think this group is just another LUG on the block … then yikes, you
-need to join this group. Give a couple presentations. You are bound to learn
+need to join this group. Give a couple of presentations. You are bound to learn
 a thing or two.
 
 # About this website
 
-The site owes a lot of credit to the jekyll team. It began with the accessible friendly format of James Williamson's site, [SimplePrimate]("http://simpleprimae.com"). The paginator was removed in favor of a simple front page that feeds to a full index of all articles. 
+The site owes a lot of credit to the jekyll team. It began with the accessible friendly format of James Williamson's site, [SimplePrimate](http://simpleprimae.com). The paginator was removed in favor of a simple front page that leads to a full index of all articles. 
 
-The site runs on [github]({{site.githuburl}}).
+This site runs on [github]({{site.githuburl}}).
 
 Hope you find this site useful. Hope to see you at a [Meetup]({{site.meetupurl}}).
 
