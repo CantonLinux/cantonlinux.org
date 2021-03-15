@@ -915,6 +915,10 @@ aside li {
 .meetup {
     background: url(../images/meetup.svg) no-repeat;
 }
+.meetup:hover,.meetup:focus {
+	background: url(../images/meetup.svg) no-repeat;
+}
+
 	
 /* -------------------------------------------------- 
    main footer styles
