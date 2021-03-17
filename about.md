@@ -20,13 +20,6 @@ a thing or two.
 
 # About this website
 
-The site owes a lot of credit to the jekyll team. It began with the accessible friendly format of James Williamson's site, [SimplePrimate](http://simpleprimae.com). The paginator was removed in favor of a simple front page that leads to a full index of all articles. 
+This site owes a lot of credit to [Team Jekyll](https://jekyllrb.com). Special credit goes to James Williamson. His accessible, responsive and elegant site, [SimplePrimate](http://simpleprimae.com), served as the foundation for building this site. 
 
-This site runs on [github]({{site.githuburl}}).
-
-Hope you find this site useful. Hope to see you at a [Meetup]({{site.meetupurl}}).
-
-
-
-
-
+CantonLinux.org runs on [github]({{site.githuburl}}). Hope you find it useful. Hope to see you at a [Meetup]({{site.meetupurl}}).

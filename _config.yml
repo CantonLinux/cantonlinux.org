@@ -30,6 +30,7 @@ githuburl: "https://github.com/cantonlinux"
 twitter_username: ""
 github_username:  ""
 meetupurl: "https://www.meetup.com/Canton-Linux-Enthusiasts/"
+future: true
 
 # Build settings
 # theme: minima

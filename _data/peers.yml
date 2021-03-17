@@ -7,6 +7,10 @@
   firstname: David
   lastname: Collins
 
+- key: math60
+  firstname: Steven
+  lastname: Mathewson
+
 - key: mcfe70
   firstname: Shaun
   lastname: McFee
@@ -22,4 +26,8 @@
 - key: rizo40
   firstname: Jarrod
   lastname: Rizor
+
+- key: skot40
+  firstname: Ken
+  lastname: Skotschir
 

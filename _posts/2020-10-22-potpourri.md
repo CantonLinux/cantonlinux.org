@@ -3,7 +3,7 @@ layout: post
 title: potpourri
 date: 2020-10-22
 tags: [ansible, vagrant, WSL2, beaglebone, gohugo, gitlab]
-fpage: a
+fpage: b
 peer: meff50
 description: The Linux d-bus message bus
 ---
