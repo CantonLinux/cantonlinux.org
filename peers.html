@@ -11,7 +11,7 @@ title: Peers
       <p>{{peer.lastname}}, {{peer.firstname}}</p>
       <ul>{% for post in site.posts %}
 	{% if post.peer == peer.key %}
-	<li><a href="{{post.url}}">
+	<li><a href="{{site.baseurl}}{{post.url}}">
 	    {{post.date | date: "%Y-%m-%d"}}</a> - {{post.title}}
 	  {% endif %}
 	  {% endfor %}
