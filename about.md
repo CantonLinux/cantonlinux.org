@@ -20,6 +20,6 @@ a thing or two.
 
 # About this website
 
-This site owes a lot of credit to [Team Jekyll](https://jekyllrb.com). Special credit goes to James Williamson. His accessible, responsive and elegant site, [SimplePrimate](http://simpleprimae.com), served as the foundation for building this site. 
+This site owes a lot of credit to [Team Jekyll](https://jekyllrb.com). Special credit goes to James Williamson. His accessible, responsive and elegant site, [SimplePrimate](http://simpleprimate.com), served as the foundation for building this site. 
 
 CantonLinux.org runs on [github]({{site.githuburl}}). Hope you find it useful. Hope to see you at a [Meetup]({{site.meetupurl}}).
