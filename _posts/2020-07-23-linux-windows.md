@@ -27,6 +27,6 @@ Run docker natively on Windows.
 
 ## Resources
 
-* [powershell docs](https://docs.microsoft.com/powershell)
-* [Ansible docs](https://docs.ansible.com)
-* [WSL2 index](https://docs.microsoft.com/en-us/windos/wsl/wsl2-index)
+* [PowerShell Documentation](https://docs.microsoft.com/powershell)
+* [Ansible Documentation](https://docs.ansible.com)
+* [Microsoft:WSL Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
