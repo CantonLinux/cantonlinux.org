@@ -24,9 +24,9 @@ copyright: 2021
 email: ""
 description: "Canton GNU/Linux Enthusiasts is an informally-organized group. We are active in the Free Software / Open Source software community around Canton, Ohio, US."
 #baseurl: "" # the subpath of your site, e.g. /blog
-baseurl: /
+baseurl: /cantonlinux.org
 #url: "http://cantonlinux.org"
-url: "https://cantonlinux.github.io/"
+url: "https://cantonlinux.github.io/cantonlinux.org"
 tagline: "Enthusiastically learning and sharing"
 githuburl: "https://github.com/cantonlinux"
 twitter_username: ""
