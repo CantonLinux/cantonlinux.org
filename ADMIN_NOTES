@@ -12,4 +12,4 @@
           cantonlinux.org (nsD.linode.com) to point to github.io IPs.
           updated custom domain to www.cantonlinux.org
           and enforced https, for proper certificate synthesis.
-
+          cantonlinux.org now operational, hosted by github pages.
