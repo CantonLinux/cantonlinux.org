@@ -3,7 +3,13 @@
           to   https://cantonlinux.github.io
           in order to support DNS access via cantonlinux.org
 ----------------------------------------------------------------------          
-20210718  (mjm) change repository URL
+20210718  (mjm) changed repository URL
           back to https://cantonlinux.github.io/cantonlinux.org
           uncertain when the registrant for cantonlinux.org will
           respond in a meaningful manner to requests for change.
+----------------------------------------------------------------------          
+20210722  (mjm) registrant has updated the DNS records for
+          cantonlinux.org (nsD.linode.com) to point to github.io IPs.
+          updated custom domain to www.cantonlinux.org
+          and enforced https, for proper certificate synthesis.
+
