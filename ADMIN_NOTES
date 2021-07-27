@@ -13,3 +13,7 @@
           updated custom domain to www.cantonlinux.org
           and enforced https, for proper certificate synthesis.
           cantonlinux.org now operational, hosted by github pages.
+          A tip of the hat to the registrant, who graciously provided
+          the DNS support of this site. By way -- my difficulties in 
+          contacting the registrant were because I had the wrong phone
+          number.
