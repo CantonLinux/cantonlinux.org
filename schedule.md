@@ -28,7 +28,7 @@ title: Schedule
 </tr>
 <tr>
   <td>May 24, 2022</td>
-  <td>TBD</td>
+  <td>FreeIPA</td>
   <td>Derek Arnold</td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@ title: Schedule
 </tr>
 <tr>
   <td>July 28, 2022</td>
-  <td></td>
+  <td>8-bit Homebrew Computer</td>
   <td>Michael Meffie</td>
 </tr>
 <tr>
