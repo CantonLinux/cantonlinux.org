@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Proxmox VE
 date: 2022-01-27
 tags: [virtualization, kvm]
-fpage: a
+fpage: b
 ---
 
 Mike will do a demo of the Proxmox VE system to manage KVM virtual machines. We
