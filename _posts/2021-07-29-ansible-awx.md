@@ -3,7 +3,7 @@ layout: post
 title: Ansible AWX - The open source Ansible Tower
 date: 2021-07-29
 tags: [ansible]
-fpage: a
+fpage: -
 peer: arno30
 description: Ansible AWX - The open source Ansible Tower
 ---
