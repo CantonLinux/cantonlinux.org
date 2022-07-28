@@ -3,7 +3,7 @@ layout: post
 title: Linux Vulnerability Scanning
 date: 2021-08-26
 tags: [security]
-fpage: a
+fpage: -
 ---
 
 Jarrod will introduce tools and methods to check for vulnerabilities on servers
