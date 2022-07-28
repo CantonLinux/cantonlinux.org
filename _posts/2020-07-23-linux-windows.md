@@ -3,7 +3,7 @@ layout: post
 title: Linux on Windows? Windows software on Linux? What is the world coming to?
 date: 2020-07-23
 tags: [windows, WSL2, powershell, ansible]
-fpage: b
+fpage: -
 peer: arno30
 description: Linux on Windows? Windows software on Linux? What is the world coming to?
 ---
