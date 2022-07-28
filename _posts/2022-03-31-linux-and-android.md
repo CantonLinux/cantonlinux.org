@@ -3,7 +3,8 @@ layout: post
 title: Linux and Android
 date: 2022-03-31
 tags: [linux]
-fpage: a
+fpage: b
+peer: coll20
 ---
 
 Dave Collins will be presenting on Linux and Android.
