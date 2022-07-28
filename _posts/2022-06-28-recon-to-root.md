@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Security: Recon to Root
+title: Security Recon to Root
 date: 2022-06-28
 tags: [linux]
 fpage: a
