@@ -48,8 +48,8 @@ title: Schedule
 </tr>
 <tr>
   <td>September 29, 2022</td>
-  <td>3 Musketeers</td>
-  <td>Casey Wilson</td>
+  <td>TBD</td>
+  <td>TBD</td>
 </tr>
 <tr>
   <td>October 27, 2022</td>
