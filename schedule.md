@@ -48,8 +48,8 @@ title: Schedule
 </tr>
 <tr>
   <td>September 29, 2022</td>
-  <td>TBD</td>
-  <td>TBD</td>
+  <td>The Grand Unified Boot Loader (GRUB)</td>
+  <td>Mike Molar</td>
 </tr>
 <tr>
   <td>October 27, 2022</td>
