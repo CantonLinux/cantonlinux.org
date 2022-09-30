@@ -53,7 +53,7 @@ title: Schedule
 </tr>
 <tr>
   <td>October 27, 2022</td>
-  <td>GNOME Extenstions!</td>
+  <td>GNOME Extensions!</td>
   <td>Dave Collins</td>
 </tr>
 <tr>
