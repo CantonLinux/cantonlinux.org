@@ -271,7 +271,9 @@ table {
 }
 td,
 th {
-  padding: 0;
+  /* padding: 0; */
+  padding: 14px 10px 14px 10px;
+  border: 1px solid #ccc;
 }
  /* end normalize styles*/
  /* syntax highlighting*/
