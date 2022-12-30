@@ -1,0 +1,46 @@
+---
+- date: "January 27, 2022"
+  title: "Proxmox VE"
+  presenter: "Michael Meffie"
+
+- date: "February 24, 2022"
+  title: "Load testing with K6"
+  presenter: "Gaurav Narain Sexana (aka G)"
+
+- date: "March 31, 2022"
+  title: "Linux and Android"
+  presenter: "Dave Collins"
+
+- date: "April 28, 2022"
+  title: "Terminal Based Development"
+  presenter: "Shaun McFee"
+
+- date: "May 24, 2022"
+  title: "FreeIPA"
+  presenter: "Derek Arnold"
+
+- date: "June 28, 2022"
+  title: "Security: Recon to Root"
+  presenter: "Jarrod"
+
+- date: "July 28, 2022"
+  title: "6502 8-bit Homebrew Computer"
+  presenter: "Michael Meffie"
+
+- date: "August 25, 2022"
+  title: "Ansible Molecule"
+  presenter: "Phil Critchfield"
+
+- date: "September 29, 2022"
+  title: "The Grand Unified Boot Loader (GRUB)"
+  presenter: "Mike Molar"
+
+- date: "October 27, 2022"
+  title: "GNOME Extensions!"
+  presenter: "Dave Collins"
+
+- date: "November 25, 2022"
+  title: "No Meeting"
+
+- date: "December 29, 2022"
+  title: "Canton Linux Holiday Event!"
