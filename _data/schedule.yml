@@ -4,33 +4,41 @@
 
 - date: "February 23, 2023"
   title: "Newer CLI Tools"
+  presenter: "Shaun McFee"
 
 - date: "March 30, 2023"
   title: "Bash completion"
+  presenter: "Dave Collins"
 
 - date: "April 27, 2023"
   title: "make all the things"
+  presenter: "Michael Meffie"
 
 - date: "May 25, 2023"
   title: "3 Musketeers for task in isolation"
+  presenter: "Casey Wilson"
 
 - date: "June 29, 2023"
-  title: "Devops all the things"
+  title: "DevOps all the things"
+  presenter: "Phil Critchfield"
 
 - date: "July 27, 2023"
   title: "Meeting"
 
 - date: "August 31, 2023"
   title: "PAM"
+  presenter: "Dave Collins"
 
 - date: "September 28, 2023"
-  title: "Yocto"
+  title: "A Distro Called Quest: BYO Distro with Yocto"
+  presenter: "Derek Arnold"
 
 - date: "October 26, 2023"
   title: "Build your own linux kernel module"
+  presenter: "Michael Meffie"
 
 - date: "November 30, 2023"
-  title: "Thanksgiving"
+  title: "No Meeting (Thanksgiving)"
 
 - date: "December 28, 2023"
-  title: "Holiday Event"
+  title: "Canton Linux Holiday Event"
