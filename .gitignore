@@ -8,5 +8,5 @@ _site/
 .bundle/
 vendor/
 
-# Ignore local makefile config
-Makefile.config
+# Ignore Makefile sentinels
+.install-bundle
