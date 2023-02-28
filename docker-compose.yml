@@ -1,0 +1,10 @@
+version: '3'
+services:
+  cantonlinux_worker:
+    image: cantonlinux_worker
+    volumes:
+      - .:/var/app
+    working_dir: /var/app
+    ports:
+      - "4000:4000"
+      - "35729:35729"
