@@ -42,6 +42,7 @@ install-bundle: .install-bundle
 
 .PHONY: update
 update-bundle: .install-bundle
+	bash ruby-check.sh
 	bundle update
 
 .PHONY: clean
