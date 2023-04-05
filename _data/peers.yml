@@ -1,8 +1,7 @@
-
 - key: arno30
   firstname: Derek
   lastname: Arnold
-  
+
 - key: crit60
   firstname: Phil
   lastname: Critchfield
@@ -38,10 +37,6 @@
 - key: skot40
   firstname: Ken
   lastname: Skotschir
-
-- key: wils30
-  firstname: Casey
-  lastname: Wilson
 
 - key: wils30
   firstname: Casey
