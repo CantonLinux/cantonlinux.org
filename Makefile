@@ -12,6 +12,7 @@ help:
 	@echo "Run targets:"
 	@echo "  preview           to preview with your browser"
 	@echo "  check             to verify the build"
+	@echo "  post              to create a new post"
 	@echo ""
 	@echo "Cleanup targets:"
 	@echo "  clean             to remove generated files"
@@ -28,6 +29,10 @@ preview: .install-bundle
 check: .install-bundle
 	bash ruby-check.sh
 	bundle exec jekyll build -d $(DESTDIR)
+
+.PHONY: post
+post:
+	bash new-post.sh
 
 .PHONY: install-bundle
 install-bundle: .install-bundle
