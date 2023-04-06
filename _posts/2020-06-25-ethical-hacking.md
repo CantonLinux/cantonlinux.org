@@ -3,7 +3,7 @@ layout: post
 title: Inroduction to ethical hacking
 date: 2020-06-25
 tags: [security]
-fpage: 1
+fpage: b
 peer: rizo40
 description: Inroduction to ethical hacking
 ---

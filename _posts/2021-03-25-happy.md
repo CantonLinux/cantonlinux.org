@@ -3,7 +3,7 @@ layout: post
 title: Linux happy hour
 date: 2021-03-25
 tags: [happy]
-fpage: 1
+fpage: b
 peer: meff50
 description: Linux happy hour
 ---

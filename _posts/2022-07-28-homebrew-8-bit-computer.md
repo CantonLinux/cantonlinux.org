@@ -3,7 +3,7 @@ layout: post
 title: Homebrew 8-bit computer
 date: 2022-07-28
 tags: [linux]
-fpage: a
+fpage: b
 peer: meff50
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Ansible Molecule
 date: 2022-08-25
 tags: [linux]
-fpage: a
+fpage: b
 peer: crit60
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Creating rpms
 date: 2020-04-30
 tags: [rpm]
-fpage: 1
+fpage: b
 peer: meff50
 description: Creating rpms.
 ---

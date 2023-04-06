@@ -3,7 +3,7 @@ layout: post
 title: Terminal Based Development
 date: 2022-04-28
 tags: [linux]
-fpage: a
+fpage: b
 peer: mcfe70
 ---
 

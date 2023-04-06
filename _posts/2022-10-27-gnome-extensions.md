@@ -3,7 +3,7 @@ layout: post
 title: GNOME Extensions
 date: 2022-09-29
 tags: [linux]
-fpage: a
+fpage: b
 peer: coll20
 ---
 

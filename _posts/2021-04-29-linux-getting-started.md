@@ -3,7 +3,7 @@ layout: post
 title: Linux Getting Started (and Happy Hour)
 date: 2021-04-29
 tags: [happy]
-fpage: 1
+fpage: b
 peer: meff50
 description: Linux getting started (and happy hour)
 ---
