@@ -19,8 +19,12 @@
   presenter: "Casey Wilson"
 
 - date: "June 29, 2023"
-  title: "DevOps all the things"
-  presenter: "Phil Critchfield"
+  title: "Adding a serial port to the 6502 breadboard computer"
+  presenter: "Michael Meffie"
+
+#- date: "June 29, 2023"
+#  title: "DevOps all the things"
+#  presenter: "Phil Critchfield"
 
 - date: "July 27, 2023"
   title: "Introduction to Elixir Functional Programming Language"
