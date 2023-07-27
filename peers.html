@@ -7,6 +7,7 @@ title: Peers
   <article class="posts">
     <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
       Members who have presented at group events or authored articles on this site.
+	  <p>  
       {% for peer in site.data.peers %}
       <p>{{peer.lastname}}, {{peer.firstname}}</p>
       <ul>{% for post in site.posts %}
