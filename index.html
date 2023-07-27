@@ -13,7 +13,7 @@ title: Home
       <h2>{{post.title}}</h2>
       <time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date: "%Y-%m-%d" }} by 
       {% for xpeer in site.peers.data %}
-      {{ if post.peer == xpeer.key }}
+      {% if post.peer == xpeer.key %}
       {{ xpeer.firstname }} {{ xpeer.lastname }}
       {% endif %} 
       {% endfor %}</time>
