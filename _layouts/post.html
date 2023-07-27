@@ -8,7 +8,7 @@ current: blog
         <header>
             <h2>{{page.title}}</h2>
             <time itemprop="dateCreated" datetime="{{page.date}}">
-              {{ page.date | date: "%Y-%m-%d" }}</time>
+              {{ page.date | date: "%Y-%m-%d" }} by {{ page.peer.firstname }} {{ page.peer.lastname }}</time>
         </header>
        {% if page.intro %}
     <p class="intro">{{page.intro}}</p>
