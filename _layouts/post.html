@@ -8,10 +8,10 @@ current: blog
         <header>
             <h2>{{page.title}}</h2>
             <time itemprop="dateCreated" datetime="{{page.date}}">
-              {{ page.date | date: "%Y-%m-%d" }} by 
+              {{ page.date | date: "%Y-%m-%d" }} 
              {% for xpeer in site.data.peers %}
-             {% if page.peer == xpeer.key %}
-             {{ xpeer.firstname }} {{ xpeer.lastname }}
+             {% if page.peer == xpeer.key and page.peer != "" %}
+             by {{ xpeer.firstname }} {{ xpeer.lastname }}
             {% endif %}
             {% endfor %}</time>
         </header>
