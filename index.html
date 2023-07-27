@@ -11,7 +11,12 @@ title: Home
     {% if post.fpage == "a" %}
     <header>
       <h2>{{post.title}}</h2>
-      <time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      <time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date: "%Y-%m-%d" }} by 
+      {% for xpeer in site.peers.data %}
+      {{ if post.peer == xpeer.key }}
+      {{ xpeer.firstname }} {{ xpeer.lastname }}
+      {% endif %} 
+      {% endfor %}</time>
     </header>
     <p>{{ post.content }}</p>
     <footer>
@@ -20,13 +25,13 @@ title: Home
 	{% endfor %}</p></footer>
     {% endif %}
     {% endfor %}
-    <!--    front page b : other top articles (one line link)      -->
+    <!--    front page b : other top articles (one line link)  MJM 20230727  disable front page b articles  
     {% for post in site.posts %}
     {% if post.fpage == "b" %}
     <p><a href="{{site.baseurl}}{{post.url}}">
 	{{post.date | date: "%Y-%m-%d"}}</a> - {{post.title}}</p>
     {% endif %}
-    {% endfor %}
+    {% endfor %}   MJM 20230727 disable front page b articles  --!>
     <!--    for all the articles     -->
       <p class="center"><a href="{{site.url}}/archive.html">All articles</a></p>
       </article>
