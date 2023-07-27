@@ -11,10 +11,10 @@ title: Home
     {% if post.fpage == "a" %}
     <header>
       <h2>{{post.title}}</h2>
-      <time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date: "%Y-%m-%d" }} by 
+      <time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date: "%Y-%m-%d" }} 
       {% for xpeer in site.data.peers %}
       {% if post.peer == xpeer.key %}
-      {{ xpeer.firstname }} {{ xpeer.lastname }}
+      by {{ xpeer.firstname }} {{ xpeer.lastname }}
       {% endif %} 
       {% endfor %}</time>
     </header>
