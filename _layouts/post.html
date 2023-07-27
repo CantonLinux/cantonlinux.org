@@ -11,7 +11,7 @@ current: blog
               {{ page.date | date: "%Y-%m-%d" }} 
              {% for xpeer in site.data.peers %}
              {% if page.peer == xpeer.key and page.peer != "" %}
-             by {{ xpeer.firstname }} {{ xpeer.lastname }}
+             by <A href="../../../peers.html#{{page.peer}}">{{ xpeer.firstname }} {{ xpeer.lastname }}</A>
             {% endif %}
             {% endfor %}</time>
         </header>
