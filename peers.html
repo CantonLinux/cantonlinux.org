@@ -9,7 +9,7 @@ title: Peers
       Members who have presented at group events or authored articles on this site.
 	  <p>  
       {% for peer in site.data.peers %}
-      <p>{{peer.lastname}}, {{peer.firstname}}</p>
+      <p><A name="{{peer.key}}">{{peer.lastname}}, {{peer.firstname}}</A></p>
       <ul>{% for post in site.posts %}
 	{% if post.peer == peer.key %}
 	<li><a href="{{site.baseurl}}{{post.url}}">
